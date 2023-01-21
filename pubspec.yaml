@@ -1,0 +1,104 @@
+name: gymmi
+description: A new Flutter project.
+
+
+
+publish_to: 'none' 
+
+
+
+
+
+
+
+
+
+
+
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+
+
+
+
+
+
+dependencies:
+  #    State MANAGEMENT
+  get: ^4.6.5
+
+  #  Splash Screen Package
+  flutter_native_splash: ^2.2.16
+
+  #  ON BOARDING PACKAGES
+  liquid_swipe: ^3.0.0
+  smooth_page_indicator: ^1.0.0+2
+
+  #  OTP Text Field Package
+  flutter_otp_text_field: ^1.1.1
+
+  #  Firebase Packages
+  firebase_core: ^2.4.1
+  firebase_auth: ^4.2.5
+  cloud_firestore: ^4.3.1
+
+  #  Icon Packages
+  cupertino_icons: ^1.0.2
+  line_awesome_flutter: ^2.0.0
+
+  #  Font Packages
+  google_fonts: ^3.0.1
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_native_splash:
+  color: "#f7f6f1"
+  image: "assets/logos/gymmi-logo.png"
+#  branding: "assets/logos/logo.png"
+  color_dark: "#272727"
+  image_dark: "assets/logos/gymmi-logo.png"
+#  branding_dark: "assets/logos/logo.png"
+
+  android 12:
+    icon_background_color: "#f7f6f1"
+    image: "assets/logos/gymmi-logo.png"
+    icon_background_color_dark: "#272727"
+    image_dark: "assets/logos/gymmi-logo.png"
+
+  web: false
+
+
+
+
+  flutter_lints: ^2.0.0
+
+
+
+
+
+flutter:
+
+
+
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/images/on_boarding_images/
+    - assets/images/welcome_screen/
+    - assets/images/login_screen/
+    - assets/logos/
+
